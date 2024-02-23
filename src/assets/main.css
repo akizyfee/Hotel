@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** Figma 設定 */
+@layer base {
+  .lineHeight-heading {
+    @apply leading-[120%];
+  }
+  .lineHeight-normal {
+    @apply leading-[150%];
+  }
+  .letterSpacing-heading {
+    @apply tracking-[5%];
+  }
+  .letterSpacing-normal {
+    @apply tracking-[2%];
+  }
+
+  body {
+    @apply font-base text-base;
+  }
+
+  h1 {
+    @apply text-[48px] font-bold;
+  }
+
+  h2 {
+    @apply text-[40px] font-bold;
+  }
+
+  h3 {
+    @apply text-[32px] font-bold;
+  }
+
+  h4 {
+    @apply text-[28px] font-bold;
+  }
+
+  h5 {
+    @apply text-[24px] font-bold;
+  }
+
+  h6 {
+    @apply text-[20px] font-bold;
+  }
+
+  .title {
+    @apply text-base font-bold;
+  }
+
+  .subTitle {
+    @apply text-sm font-medium;
+  }
+  .tiny {
+    @apply text-xs font-medium;
+  }
+}
